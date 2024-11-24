@@ -29,7 +29,7 @@ def add_bg_from_local(image_file):
     )
 
 # Call the function with your image file
-add_bg_from_local('G:\VS_Code\ATS_SCORE_CHECKER_PROJECT\steve-johnson-QoJuScaZjkA-unsplash.jpg')  # Use a high-quality background image
+add_bg_from_local('steve-johnson-QoJuScaZjkA-unsplash.jpg')  # Use a high-quality background image
 
 # Read the CSS file for additional styling
 with open("G:\VS_Code\ATS_SCORE_CHECKER_PROJECT\style.css") as f:
