@@ -83,16 +83,22 @@ def show_progress_bar():
 submit = st.button("Evaluate Resume", key="submit")
 
 # Additional Prompt Templates
-input_prompt1 = """
-You are an experienced Technical Human Resource Manager, your task is to review the provided resume against the job description. 
-Please share your professional evaluation on whether the candidate's profile aligns with the role. 
-Highlight the strengths and weaknesses of the applicant in relation to the specified job requirements.
+input_prompt1 = """ As an experienced Applicant Tracking System (ATS) analyst,
+with profound knowledge in technology, software engineering, data science, full-stack web development, cloud engineering, 
+Your role involves cloud developers, DevOps engineers, and big data engineering, evaluating resumes against job descriptions.
+Recognizing the competitive job market, provide top-notch assistance for resume improvement.
+Your goal is to look over the resume against the job description,
+assign a percentage match based on key criteria, and accurately point out missing keywords.
+Resume:{text}
+Description:{job_description}
+I want the response in one single string having the structure
+{{"Job Description Match":"%", "Missing Keywords":"", "Candidate Summary":"", "Experience":""}}
 """
 
 input_prompt2 = """
-You are an skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality, 
-your task is to evaluate the resume against the provided job description. Give me the percentage of match if the resume matches
-the job description. First, the output should come as percentage and then keywords missing and last final thoughts.
+You are a skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality, 
+your task is to evaluate the resume against the provided job description. Give me the percentage of the match if the resume matches
+the job description. First, the output should come as a percentage then keywords missing, and last final thoughts.
 """
 
 input_prompt3 = """
@@ -100,7 +106,7 @@ Please compare the skills listed in the resume to the skills required in the job
 """
 
 input_prompt4 = """
-Analyze the candidate's experience as mentioned in the resume in relation to the job description. Point out the relevance or mismatch.
+Analyze the candidate's experience as mentioned in the resume about the job description. Point out the relevance or mismatch.
 """
 
 input_prompt5 = """
