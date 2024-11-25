@@ -42,7 +42,7 @@ Whether you're preparing for your next big opportunity or want to refine your re
 
 1. **Clone the repository**:
 ```
-git clone 
+git clone https://github.com/VishuS1304/Resume_ATS_Checker.git
 ```
 2. **Navigate to the project directory**:
 ```
@@ -63,7 +63,7 @@ python -m virtualenv .
 ```
 pip install -r requirements.txt
 ```
-Ensure all dependencies are installed.
+Make sure all dependencies are installed.
 
 
 6. **Run the Streamlit application**:
