@@ -31,7 +31,7 @@ Whether you're preparing for your next big opportunity or want to refine your re
 - **PyPDF2**: Library for reading and manipulating PDF files.
 ---
 ## 🛠️ Tech Stack  
--**Python**
+- **Python**
 - **Gemini Pro model API key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)**
 - **LLM Model**: Google-Generative AI.  
 - **Deployment**: Streamlit.  
