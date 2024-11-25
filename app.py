@@ -84,15 +84,14 @@ submit = st.button("Evaluate Resume", key="submit")
 
 # Additional Prompt Templates
 input_prompt1 = """ As an experienced Applicant Tracking System (ATS) analyst,
-with profound knowledge in technology, software engineering, data science, full-stack web development, cloud engineering, 
-Your role involves cloud developers, DevOps engineers, and big data engineering, evaluating resumes against job descriptions.
+with profound knowledge of technology.  Your role involves cloud developers, DevOps engineers, and big data engineering, evaluating resumes against job descriptions.
 Recognizing the competitive job market, provide top-notch assistance for resume improvement.
-Your goal is to look over the resume against the job description,
+You aim to review the resume against the job description,
 assign a percentage match based on key criteria, and accurately point out missing keywords.
 Resume:{text}
 Description:{job_description}
 I want the response in one single string having the structure
-{{"Job Description Match":"%", "Missing Keywords":"", "Candidate Summary":"", "Experience":""}}
+{{"Job Description Match":"%", "Missing Keywords":"", "Candidate Summary":"", "Experience":"", "Skills Match": "Total skills in the job description: number", "Qualifications Match":"", "Overall Match Evaluation":"%"}}
 """
 
 input_prompt2 = """
