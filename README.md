@@ -1,13 +1,9 @@
-# Resume_ATS_Checker
-Here's an interactive **README.md** template for a GitHub project focused on a **Resume Evaluator/ATS Score Checker**. This README includes features, setup instructions, usage examples, and interactive content.
-
+# 📄 Resume_ATS_Checker
 > Track My Resume Application is an Applicant Tracking System (ATS) built using the Gemini Pro LLM model for natural language processing and classification. It allows users to streamline their hiring process by efficiently managing resumes, extracting text from various file formats, and providing insights into applicant data.
 
 
 ---
-
-# 📄 Resume Evaluator & ATS Score Checker  
-
+  
 ## 🚀 Introduction  
 Welcome to the **Resume Evaluator & ATS Score Checker**! This tool helps job seekers optimize their resumes for **Applicant Tracking Systems (ATS)** by:  
 - Analyzing resumes against job descriptions.  
@@ -36,7 +32,7 @@ Whether you're preparing for your next big opportunity or want to refine your re
 ---
 ## 🛠️ Tech Stack  
 -**Python**
-- **Gemini Pro model api key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)**
+- **Gemini Pro model API key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)**
 - **LLM Model**: Google-Generative AI.  
 - **Deployment**: Streamlit.  
 
