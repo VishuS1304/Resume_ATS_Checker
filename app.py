@@ -47,7 +47,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_response(input):
     model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content(input)
+    response = model.generate_content(input,  generation_config={"candidate_count": 1,"temperature": 0})
     return response.text
 
 def input_pdf_text(uploaded_file):
