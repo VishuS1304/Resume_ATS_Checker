@@ -88,8 +88,8 @@ with profound knowledge of technology.  Your role involves cloud developers, Dev
 Recognizing the competitive job market, provide top-notch assistance for resume improvement.
 You aim to review the resume against the job description,
 assign a percentage match based on key criteria, and accurately point out missing keywords.
-Resume:{text}
-Description:{job_description}
+Resume:{uploaded_file}
+Description:{input_text}
 I want the response in one single string having the structure
 {{"Job Description Match":"%", "Missing Keywords":"", "Candidate Summary":"", "Experience":"", "Skills Match": "Total skills in the job description: number", "Qualifications Match":"", "Overall Match Evaluation":"%"}}
 """
